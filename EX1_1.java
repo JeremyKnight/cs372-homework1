@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class EX1_1 {
 	public static void main(String args[]) {
 		Scanner scnr = new Scanner(System.in);
 		int number=0;
