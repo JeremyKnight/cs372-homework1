@@ -10,7 +10,7 @@ public class Date {
             return false;
             //throw new IllegalArguementException("illegal date called");
         if(month==2 || month==4 || month==6 || month==9|| month==11) {
-            if(day>31 || (month==2 && day>28)){
+            if(day>31 || (month==2 && day>28)){ //PT -- need the year for this one.
                 //throw new IllegalArguementException("illegal date called");
                 return false;
             }
