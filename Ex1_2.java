@@ -7,6 +7,7 @@ public class EX1_2 {
         double radius=0;
 
         System.out.println("enter the radius of a circle");
+        //PT -- why note scnr.nextDouble() ? -1
         radius = Double.parseDouble(scnr.nextLine());
 
         double area = PI * (radius * radius);
