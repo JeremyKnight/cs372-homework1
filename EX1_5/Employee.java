@@ -36,4 +36,7 @@ public class Employee {
         return personReportedTo;
     }
 
+    //PT -- set functions? -3
+    
+    //PT -- also, consider overriding toString()
 }
