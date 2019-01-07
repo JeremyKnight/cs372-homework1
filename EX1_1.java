@@ -7,6 +7,7 @@ public class EX1_1 {
 
 		System.out.println("enter a number between 10 and 100");
 		number = Integer.parseInt(scnr.nextLine());
+		//PT -- check that number really is between 10 and 100. -1
 
 		for(int i=0; i<number; i++){
 			if(i%2==0)
